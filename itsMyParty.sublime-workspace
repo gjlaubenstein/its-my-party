@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"application"
+			],
+			[
+				"field",
+				"fields"
+			],
+			[
+				"tem",
+				"tempString"
+			],
+			[
+				"date",
+				"datesFlag"
+			],
+			[
+				"bo",
+				"broadcastCountry"
+			],
+			[
+				"get",
+				"getCurrent"
+			],
+			[
+				"lo",
+				"locationService"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"coun",
+				"countryFlag"
+			],
+			[
+				"dire",
+				"directive-templates"
+			],
+			[
+				"cou",
+				"counties"
+			],
+			[
+				"geo",
+				"geoFlags"
+			],
+			[
+				"curre",
+				"currentCounty"
+			],
+			[
+				"curr",
+				"currentCounty"
+			],
+			[
+				"count",
+				"counties"
+			],
+			[
+				"current",
+				"currentState"
+			],
+			[
+				"resetTempCo",
+				"resetTempCounty"
+			],
+			[
+				"res",
+				"resetTempState"
+			],
+			[
+				"pro",
+				"program"
+			],
+			[
+				"p",
+				"programID"
+			],
+			[
+				"isAu",
+				"isAuthenticated"
+			],
+			[
+				"co",
+				"cookieStore"
+			],
+			[
+				"enc",
+				"encrypt"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"for",
+				"formModel"
+			],
+			[
+				"form",
+				"formSchema"
+			],
+			[
+				"fiel",
+				"field_title"
+			],
+			[
+				"Form",
+				"FormService"
+			],
+			[
+				"fo",
+				"FormService"
+			],
+			[
+				"hand",
+				"handleError"
+			],
+			[
+				"ol",
+				"oldOrder"
+			],
+			[
+				"templa",
+				"templateUrl"
+			],
+			[
+				"accordio",
+				"accordion-heading"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"margin-",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/itsMyParty"
+	],
+	"file_history":
+	[
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/programs.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/edit.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/list.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/view.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/loginCtrl.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/controllers/users.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/models/User.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/utilities/encryption.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/config/routes.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/index.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/index.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/models/User.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/services/AuthService.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/utilities/encryption.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/app.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/main.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/bower_components/angular-cookies/.bower.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/bower_components/angular-cookies/.bower.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/bower_components/angular-cookies/angular-cookies.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/application.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/applyCtrl.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/app.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/application.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/main.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/config/express.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/controllers/programs.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/config/mongoose.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/test.csv",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/package.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/main.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/controllers/users.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/package.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/register.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/services/AuthService.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/services/locationService.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/loginCtrl.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/config/routes.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/controllers/programs.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/services/sessionService.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/country.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/state.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/city.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/county.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/country.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/state.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/city.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/county.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/services/form-service.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/country.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/directive-templates/field/country.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/services/form-service.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/directives/field-directive.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/geo-data.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/geoData.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/directives/field-directive.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/geoData.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/directive-templates/field/geoData.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/edit.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/create.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/datePicker.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/models/Program.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/models/Program.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/directive-templates/field/untitled",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/program.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/views/program-edit.html",
+		"/Users/gregorylaubenstein/Desktop/sc.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/services/program-service.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/public/app/scripts/controllers/datePicker.js",
+		"/Users/gregorylaubenstein/Desktop/al.json",
+		"/Users/gregorylaubenstein/Desktop/ak.json",
+		"/Users/gregorylaubenstein/Desktop/az.json",
+		"/Users/gregorylaubenstein/Desktop/AR.json",
+		"/Users/gregorylaubenstein/Desktop/ca.json",
+		"/Users/gregorylaubenstein/Desktop/co.json",
+		"/Users/gregorylaubenstein/Desktop/ct.json",
+		"/Users/gregorylaubenstein/Desktop/de.json",
+		"/Users/gregorylaubenstein/Desktop/dc.json",
+		"/Users/gregorylaubenstein/Desktop/fl.json",
+		"/Users/gregorylaubenstein/Desktop/ga.json",
+		"/Users/gregorylaubenstein/Desktop/HI.json",
+		"/Users/gregorylaubenstein/Desktop/id.json",
+		"/Users/gregorylaubenstein/Desktop/il.json",
+		"/Users/gregorylaubenstein/Desktop/in.json",
+		"/Users/gregorylaubenstein/Desktop/ia.json",
+		"/Users/gregorylaubenstein/Desktop/ks.json",
+		"/Users/gregorylaubenstein/Desktop/ky.json",
+		"/Users/gregorylaubenstein/Desktop/la.json",
+		"/Users/gregorylaubenstein/Desktop/me.json",
+		"/Users/gregorylaubenstein/Desktop/md.json",
+		"/Users/gregorylaubenstein/Desktop/ma.json",
+		"/Users/gregorylaubenstein/Desktop/mi.json",
+		"/Users/gregorylaubenstein/Desktop/mn.json",
+		"/Users/gregorylaubenstein/Desktop/ms.json",
+		"/Users/gregorylaubenstein/Desktop/mo.json",
+		"/Users/gregorylaubenstein/Desktop/mt.json",
+		"/Users/gregorylaubenstein/Desktop/ne.json",
+		"/Users/gregorylaubenstein/Desktop/nv.json",
+		"/Users/gregorylaubenstein/Desktop/nh.json",
+		"/Users/gregorylaubenstein/Desktop/nj.json",
+		"/Users/gregorylaubenstein/Desktop/nm.json",
+		"/Users/gregorylaubenstein/Desktop/ny.json",
+		"/Users/gregorylaubenstein/Desktop/nc.json",
+		"/Users/gregorylaubenstein/Desktop/nd.json",
+		"/Users/gregorylaubenstein/Desktop/oh.json",
+		"/Users/gregorylaubenstein/Desktop/ok.json",
+		"/Users/gregorylaubenstein/Desktop/or.json",
+		"/Users/gregorylaubenstein/Desktop/pa.json",
+		"/Users/gregorylaubenstein/Desktop/ri.json",
+		"/Users/gregorylaubenstein/Desktop/sd.json",
+		"/Users/gregorylaubenstein/Desktop/tn.json",
+		"/Users/gregorylaubenstein/Desktop/tx.json",
+		"/Users/gregorylaubenstein/Desktop/ut.json",
+		"/Users/gregorylaubenstein/Desktop/vt.json",
+		"/Users/gregorylaubenstein/Desktop/va.json",
+		"/Users/gregorylaubenstein/Desktop/wa.json",
+		"/Users/gregorylaubenstein/Desktop/wv.json",
+		"/Users/gregorylaubenstein/Desktop/wi.json",
+		"/Users/gregorylaubenstein/Desktop/wy.json",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/scripts/controllers/logout.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/public/app/views/register.html",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/routes/index.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/config/mongoose.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server/models/Form.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/applicants/server.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/config/config.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/controllers/forms.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/server/models/Form.js",
+		"/Users/gregorylaubenstein/Documents/websites/rhdevshop-workspace/cms-scholars/admin/routes/admins.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t",
+			"console",
+			"userId",
+			"console",
+			"LocationService.geoFlags",
+			"handleCurrentCountry",
+			"$scope",
+			"brown",
+			"$scope.program",
+			"$scope.program.",
+			"$scope.program",
+			"program.",
+			"console.log(",
+			"{",
+			"]",
+			"{",
+			":programId/edit",
+			"field",
+			"cookie",
+			"console.log",
+			"form_fields",
+			"location",
+			"		\n",
+			"previewForm",
+			"template",
+			"controller",
+			"form_id",
+			"id",
+			"service",
+			"ng",
+			"FormService",
+			"#productPhotoImg",
+			"h1",
+			"hr",
+			"addItemFromForm",
+			".add-to-cart",
+			"wrapper",
+			"ajaxifyCart",
+			"cart",
+			"button",
+			".btn",
+			"#about &",
+			"#About & C",
+			"contactFormWrapper",
+			"#About Page",
+			"#product page",
+			"style=\"height: 200px;",
+			"large--one-fifth medium--one-half",
+			"select",
+			".selector-wrapper",
+			"hr",
+			"additemFromForm",
+			"#product page",
+			"h4",
+			".btn",
+			"submit",
+			".btn",
+			"#product Page",
+			"selector-wrapper",
+			"select",
+			"h3",
+			"hr",
+			"#product page",
+			".h2",
+			".page-header",
+			"font-family: 'Mr De Haviland', cursive;\n",
+			"#product PAge",
+			"page-header",
+			"productPhotoImg",
+			"input",
+			"$radius",
+			"border-radius",
+			"border-raidus",
+			"float: left;",
+			"footer",
+			"one-third",
+			"grid",
+			"link",
+			"carousel",
+			"data-max-width=\"710\" ",
+			"site-nav",
+			"header-logo ",
+			"site-width",
+			".grid",
+			"#Grid Setup",
+			"grid",
+			"img",
+			"social-icons",
+			"webkit",
+			"typography",
+			"Site Header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "itsMyParty.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
