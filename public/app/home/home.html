@@ -16,9 +16,9 @@
       <div class="collapse navbar-collapse navbar-right" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true">
       
         <ul class="nav navbar-nav">
-          <li><a ng-click="scrollTo('aboutUs')">About Us</a></li>
-          <li><a ng-click="scrollTo('aboutUs')">Our Latest</a></li>
-          <li><a href="#">Location</a></li>
+          <li><a href="#" scroll-to="about-us">About Us</a></li>
+          <li><a href="#" scroll-to="our-latest">Our Latest</a></li>
+          <li><a href="#" scroll-to="location">Location</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
       </div>
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="container" style="height: {{height}}" id="aboutUs">
+    <div class="container" style="height: {{height}}" id="about-us">
       <!-- Example row of columns -->
       <div class="row" style="margin-top: 8%;">
         <div class="col-md-4 col-xs-12 text-center">
@@ -54,10 +54,10 @@
         </div>
       </div>
     </div> <!-- /container -->
-    <div class="theLatest" style="height: {{height}};">
-	    <div class="container" id="aboutUs">
+    <div class="theLatest">
+	    <div class="container" id="our-latest">
 	      <!-- Example row of columns -->
-	      <div class="row" style="margin-top: 4%;">
+	      <div class="row"  style="margin-top: 4%;">
 	      	<div class="col-md-12 col-xs-12 text-center">
 	        <h1 class="h1--cursive">Our Latest</h1>
 	        </div>
@@ -82,7 +82,7 @@
 	      </div>
 	    </div> <!-- /container -->
 	</div>
-	<div style=" width: 100%; padding-top: 10px; height: {{height}};">
+	<div id="location" style=" width: 100%; padding-top: 50px; height: {{height}};">
 		<div class="col-md-6 col-xs-12">
 	        <iframe width="100%" height="{{mapHeight}}" frameborder="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=920+HWY+133++Carbondale,+Colorado+81623&amp;aq=&amp;sll=39.739318,-89.266507&amp;sspn=9.473973,21.643066&amp;t=v&amp;ie=UTF8&amp;hq=&amp;hnear=920+Colorado+133,+Carbondale,+Colorado+81623&amp;z=16&amp;ll=39.402746,-107.220466&amp;output=embed" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 	    </div>
