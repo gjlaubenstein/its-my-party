@@ -38,48 +38,35 @@
           <img src="images/balloons.png">
           <h1 class="h1--cursive">Balloons</h1>
           <p class="txt--justify">From fun centerpieces, bouquets, columns and topiaries to arches, and so much more, balloons are the perfect way to bring color to your party and really 'wow' your guests! The possibilities are endless with our variety of colors, sizes and expertise!</p><br>
-          <p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
         </div>
         <div class="col-md-4 col-xs-12 text-center">
           <img src="images/cake.png">
           <h1 class="h1--cursive">Party Supplies</h1>
           <p class="txt--justify">Whether you're celebrating birthdays, baby showers, bachelorette parties and wedding showers, anniversaries, retirement, or any holiday, we have what you need to make your party special! Do you want to throw a themed party, just for the heck of it? We have many different themes to choose from (western, fiesta, luau, etc.)!</p>
-          <p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
        </div>
         <div class="col-md-4 col-xs-12 text-center">
         <img src="images/partyHat.png">	
           <h1 class="h1--cursive">Costume Accessories</h1>
           <p class="txt--justify">Life is a party - dress like it! It doesnt have to be Halloween for you to dress up...celebrating Mardi Gras? What about St. Patrick's Day? We have what you need to get jazzed up appropriately! Masks, wigs, hats, feather boas, glasses, fun ties, bead necklaces, tutus, full costumes, and so much more!</p>
-          <p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>
+          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
         </div>
       </div>
     </div> <!-- /container -->
     <div class="theLatest">
 	    <div class="container" id="our-latest">
 	      <!-- Example row of columns -->
-	      <div class="row"  style="margin-top: 4%;">
-	      	<div class="col-md-12 col-xs-12 text-center">
-	        <h1 class="h1--cursive">Our Latest</h1>
-	        </div>
-	        <div class="col-md-4 col-xs-12" >
-	        	<div class="insta__card">
-	        		<img src="images/vday.jpg" class="insta__pic">
-	        		<p class="insta__tagline">BIG Valentine's Day balloon!</p>
-	        	</div>
-	        </div>
-	        <div class="col-md-4 col-xs-12" >
-	        	<div class="insta__card">
-	        		<img src="images/hats.jpg" class="insta__pic">
-	        	</div>
-	        </div>
-	        <div class="col-md-4 col-xs-12" >
-	        	<div class="insta__card">
-	        		<img src="images/broncos.jpg" class="insta__pic">
-	        		<p class="insta__tagline">Go Broncos!</p>
-	        	</div>
-	        </div>
-	       
-	      </div>
+      	<div class="col-md-12 col-xs-12 text-center" style="margin-top: 8%;">
+          <h1 class="h1--cursive">Our Latest</h1>
+        </div>
+        <div class="col-md-4 col-xs-12" style="margin-top: 5px; margin-bottom: 5px;" ng-repeat="gram in instas">
+        	<div class="insta__card" ng-click="goToInsta(gram.link)">
+        		<img src="{{gram.images.standard_resolution.url}}" class="insta__pic">
+        		<p class="insta__tagline">{{gram.caption.text}}</p>
+        	</div>
+        </div>
+        </div>
 	    </div> <!-- /container -->
 	</div>
 	<div id="location" style=" width: 100%; padding-top: 50px; height: {{height}};">
@@ -93,6 +80,13 @@
 		      	<p style="text-align:left;">920 HWY 133 (Sopris Shopping Center) Carbondale, Colorado 81623<br>
 		        Phone: (970)510-5671<br>
 		        Fax: (970)510-5672 <br>
+            <a href="https://www.facebook.com/itsmypartyetc" target="_new" style="color: #666;">
+              <i class="fa fa-facebook-official fa-2x"></i>
+            </a>
+            <a href="http://instagram.com/itsmyparty_carbondale/" target="_new" style="color: #666;">
+              <i class="fa fa-instagram fa-2x"></i>
+            </a>
+
 		        <p>&copy; It's My Party etc. 2014</p>
 		        <a href="mailto:info@itsmypartyetc.com">info@itsmypartyetc.com</a><br></p>
 		        </div>

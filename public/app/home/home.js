@@ -15,8 +15,10 @@ angular.module('itsMyParty.home', ['ngRoute'])
 
 .controller('homeCtrl', function ($scope, $window, $location, $routeParams, smoothScroll, instaService) {
 
-	instaService.getLatest(1).then(function (data) {
-		console.log(data);
+	$scope.instas = [];
+
+	instaService.getLatest(6).then(function (data) {
+		$scope.instas = data;
 	});
 
 	if($routeParams.anchor !== undefined) {
@@ -35,6 +37,11 @@ angular.module('itsMyParty.home', ['ngRoute'])
 	else {
 		$scope.height = 'auto';
 		$scope.mapHeight = "300px";
+	}
+
+	$scope.goToInsta = function (link) {
+		//console.log(link);
+		$window.open(link);
 	}
 
 });

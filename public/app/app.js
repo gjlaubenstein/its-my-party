@@ -9,6 +9,11 @@ angular.module('myApp', [
   'itsMyParty.home'
 ])
 
+.config(['$sceDelegateProvider', function($sceDelegateProvider) {
+         $sceDelegateProvider.resourceUrlWhitelist(['self', 'https://api.instagram.com/**']);
+
+     }])
+
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);
