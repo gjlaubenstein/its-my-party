@@ -30,7 +30,7 @@ angular.module('itsMyParty.home', ['ngRoute'])
 	$scope.menu.collapsed = false;
 	$scope.splashHeight = $window.innerHeight + "px";
 
-	if($window.innerWidth >= 800 && $window.innerHeight >= 600) {
+	if($window.innerWidth >= 997 && $window.innerHeight >= 575) {
 		$scope.height = $window.innerHeight + "px";
 		$scope.mapHeight = $window.innerHeight + "px";
 	}
