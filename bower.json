@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "its-my-party",
+  "description": "project for website",
+  "version": "0.1.0",
+  "homepage": "",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "bootstrap": "3.3.1",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "html5-boilerplate": "~4.3.0",
+    "ngSmoothScroll": "1.7.2"
   }
 }

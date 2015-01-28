@@ -9,8 +9,8 @@ angular.module('myApp', [
   'itsMyParty.home'
 ])
 
-.config(['$sceDelegateProvider', function($sceDelegateProvider) {
-         $sceDelegateProvider.resourceUrlWhitelist(['self', 'https://api.instagram.com/**']);
+.config(['$locationProvider', function($locationProvider) {
+         $locationProvider.html5Mode(true);
 
      }])
 
