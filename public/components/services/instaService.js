@@ -14,7 +14,7 @@ angular.module('instaService',[])
             });
         },
         getByHashtag: function(num, hashtag) {
-            return $http.get('/api/program/geoFlags').then(function (response) {
+            return $http.get('/api/insta/category/' + hashtag + '/' + num).then(function (response) {
                 return response.data;
             });
         }

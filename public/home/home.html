@@ -38,19 +38,19 @@
           <img src="images/balloons.png">
           <h1 class="h1--cursive">Balloons</h1>
           <p class="txt--justify">From fun centerpieces, bouquets, columns and topiaries to arches, and so much more, balloons are the perfect way to bring color to your party and really 'wow' your guests! The possibilities are endless with our variety of colors, sizes and expertise!</p><br>
-          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
+          <p style="vertical-align: bottom;"><button class="btn btn-default"  ng-click="open('lg','b','balloons')" role="button">See More &raquo;</button></p>
         </div>
         <div class="col-md-4 col-xs-12 text-center">
           <img src="images/cake.png">
           <h1 class="h1--cursive">Party Supplies</h1>
           <p class="txt--justify">Whether you're celebrating birthdays, baby showers, bachelorette parties and wedding showers, anniversaries, retirement, or any holiday, we have what you need to make your party special! Do you want to throw a themed party, just for the heck of it? We have many different themes to choose from (western, fiesta, luau, etc.)!</p>
-          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
+          <p style="vertical-align: bottom;"><a class="btn btn-default" ng-click="open('lg','s','party supplies')" href="#" role="button">See More &raquo;</a></p>
        </div>
         <div class="col-md-4 col-xs-12 text-center">
         <img src="images/partyHat.png">	
           <h1 class="h1--cursive">Costume Accessories</h1>
           <p class="txt--justify">Life is a party - dress like it! It doesnt have to be Halloween for you to dress up...celebrating Mardi Gras? What about St. Patrick's Day? We have what you need to get jazzed up appropriately! Masks, wigs, hats, feather boas, glasses, fun ties, bead necklaces, tutus, full costumes, and so much more!</p>
-          <!--<p style="vertical-align: bottom;"><a class="btn btn-default" href="#" role="button">See More &raquo;</a></p>-->
+          <p style="vertical-align: bottom;"><a class="btn btn-default" ng-click="open('lg','c','costume accessories')" href="#" role="button">See More &raquo;</a></p>
         </div>
       </div>
       <dv class="col-md-12 col-xs-12 text-center" style="padding-top: 50px; padding-bottom: 20px;">
@@ -99,3 +99,17 @@
 	        </div>
 	    </div>
 	</div>
+  <script type="text/ng-template" id="myModalContent.html">
+      <div class="modal-header">
+          <h3 class="modal-title">#{{category}}</h3>
+          <i class="fa fa-times-circle fa-2x modal-cancel" ng-click="cancel()"></i>
+      </div>
+      <div class="modal-body text-center" style="height: auto;">
+          <div class="col-md-3 col-xs-6" ng-repeat="gram in grams">
+            <div class="card">
+              <img src="{{gram.images.thumbnail.url}}" ng-click="goToInsta(gram.link)">
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer"></div>
+  </script>
