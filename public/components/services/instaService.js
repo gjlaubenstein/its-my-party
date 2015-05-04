@@ -3,8 +3,6 @@
 angular.module('instaService',[])
 
 .service('instaService', function FormService($http,$q) {
-    $http.defaults.useXDomain = true;
-    delete $http.defaults.headers.common['X-Requested-With'];
 
     return {
         getLatest: function(num) {
