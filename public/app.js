@@ -9,11 +9,7 @@ angular.module('myApp', [
   'itsMyParty.home'
 ])
 
-.config(['$locationProvider', function($locationProvider) {
-         $locationProvider.html5Mode(true);
-
-     }])
-
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/home'});
-}]);
+.config(['$locationProvider','$routeProvider', function($locationProvider, $routeProvider) {
+     $locationProvider.html5Mode(true);
+     $routeProvider.otherwise({redirectTo: '/home'});
+ }]);
